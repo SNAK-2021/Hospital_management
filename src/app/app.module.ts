@@ -11,6 +11,7 @@ import { AppComponent } from './app.component';
 // import { EmployeeDetailsComponent } from './employee-details/employee-details.component';
 // import { SignUpComponent } from './sign-up/sign-up.component';
 import { RouterLinkWithHref, RouterModule } from '@angular/router';
+import { LoginComponent } from './login/login.component';
 //import { WelcomePageComponent } from './welcome-page/welcome-page.component';
 
 @NgModule({
@@ -21,6 +22,7 @@ import { RouterLinkWithHref, RouterModule } from '@angular/router';
     // SearchEmployeeComponent,
     // AllEmployeesComponent,
      SignInComponent,
+    LoginComponent,
    // WelcomePageComponent,
     // EmployeeDetailsComponent,
     // SignUpComponent
