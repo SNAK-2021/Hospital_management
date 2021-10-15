@@ -1,1 +1,59 @@
-<p>opdqueue works!</p>
+<html>
+  <head>
+    <title>Dashboard</title>
+  </head>
+  <h1 style="color: red;"align="center">OPD QUEUE</h1>
+  <div class="one">
+  <table border="1">
+    <tr>
+       <th>PatientId</th>
+       <th>PatientName</th>
+       <th>DoctorId</th>
+       <th>DoctorName</th>
+       <th>PatientDetails</th>
+       <th>Action</th>
+       </tr>
+       <tr>
+       <td>{{Data.ID}}</td>
+     
+    
+      <td>{{Data.PatientName}}</td>
+   
+        <td>{{Data.DoctorId}}</td>
+    
+      <td>{{Data.DoctorName}}</td>
+    
+      
+    
+        
+      
+        <td><input type="submit" value="View" class="two"></td>
+        
+      
+      
+        <td><input type="submit" value="Cancel"class="three"></td>
+       
+      </tr>
+      <tr>
+        <td>{{Data1.ID}}</td>
+      
+     
+       <td>{{Data1.Name}}</td>
+     
+     
+         <td>{{Data1.DoctorId}}</td>
+     
+     
+       <td>{{Data1.DoctorName}}</td>
+     
+     
+       
+         <td><input type="submit" value="View" class="two"></td>
+      
+       
+      
+        <td><input type="submit" value="Cancel" class="three"></td>
+      </tr>
+  </table>
+  </div>
+</html>
