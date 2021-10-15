@@ -13,6 +13,7 @@ import { AppComponent } from './app.component';
 import { RouterLinkWithHref, RouterModule } from '@angular/router';
 import { LoginComponent } from './login/login.component';
 import { PrescriptionsComponent } from './prescriptions/prescriptions.component';
+import { OpdqueueComponent } from './opdqueue/opdqueue.component';
 //import { WelcomePageComponent } from './welcome-page/welcome-page.component';
 
 @NgModule({
@@ -25,6 +26,7 @@ import { PrescriptionsComponent } from './prescriptions/prescriptions.component'
      SignInComponent,
     LoginComponent,
     PrescriptionsComponent,
+    OpdqueueComponent,
    // WelcomePageComponent,
     // EmployeeDetailsComponent,
     // SignUpComponent
